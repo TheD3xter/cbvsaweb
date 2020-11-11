@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cursos </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Encabezado -->
+	<div class ="row">
+		<div class="col-md-1">
+			<img src="img/mini_logo3.jpg">
+		</div>
+		<div class="col-md-8 text-center">
+			<h1>
+				Cuerpo de Bomberos Voluntario De Soledad-Atlantico
+			</h1>
+			<h4>Personeria Juridica No.0000016 De Enero 11 del 2000</h4>
+			<h4>Nit.802.006.065-5</h4>
+		</div>
+		<div class="col-md-1"><img src="img/mini_logo2.png"></div>
+	</div>
+
+	<!-- Menu de navegacion superior -->
+	<nav class="navbar navbar-default" role="navigation">
+
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Inicio</a></li>
+					<li>
+						<a href="nosotros.html">
+							Nosotros<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li><a href="cursos.html">Cursos</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datos Abiertos <span class="caret"></span> </a>
+						<ul class="dropdown-menu">
+							<li> <a href="#">Siniestralidad</a></li>
+							<li> <a href="#">Estructura Organizacional</a></li>
+						</ul>
+					</li>
+					<li><a href="transparencia.html"> Transparencia </a></li>
+					<li><a href="normatividad.html">Normatividad</a></li>
+					<li><a href="contactenos.html">Contactenos</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="row font3">
+			<div class="col-md-6">
+				<h1><font color="#040B76">Cursos </font></h1>
+
+				<h3>Contamos con los siguientes cursos</h3>
+
+				<h4><a href="Enlace1.html"><img src="img/n6.png"></a></h4>
+				<br>
+				<br>
+				<h4><a href="Enlace4.html"><img src="img/n5.png"></a></h4>
+			</div>
+			<div class="col-md-4">
+				<fieldset>
+					<div class="modal-header bg-primary" style="background-color: #FFCC05">
+						<!-- <button type="button" class="close" data-dismiss="modal"  style="color: #FFFFFF" >&times;</button> -->
+						<h4 class="modal-title titulospp"><span class="glyphicon glyphicon glyphicon-pencil"> </span> ¡Escribenos!</h4>
+					</div>
+					<div class="modal-body" style="background-color: #0F2874">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="form-group">
+									<label for="nombre" class="titulosp2"><font color ="#FFFFFF">Nombre Completo: </font></label>
+									<input type="text" class="form-control input-lg in titulosp2" id="nombre" name="nombre" placeholder="Ingresa Nombre" required="">
+								</div>
+								<div class="form-group">
+									<label for="correo" class="titulosp2">Correo Electrónico:</label>
+									<input type="email" class="form-control input-lg in titulosp2" id="correo" name="correo" placeholder="Ingresa Correo Electrónico" required="">
+								</div>
+								<div class="form-group">
+									<label for="fijo" class="titulosp2">Teléfono Fijo:</label>
+									<input type="tel" class="form-control input-lg in titulosp2" id="fijo" name="fijo" placeholder="Ingresa Teléfono fijo">
+								</div>
+								<div class="form-group">
+									<label for="celular" class="titulosp2">Celular:</label>
+									<input type="tel" class="form-control input-lg in titulosp2" id="celular" min="1" max="10" name="celular" placeholder="Ingresa número celular" required=""></font>
+								</div>
+								<div class="form-group">
+									<label for="sel1" class="titulosp2"><font color ="#FFFFFF">Motivo:</font></label>
+									<select class="form-control input-lg in titulosp2" name="motivo" id="motivo">
+										<option value="Información">Información</option>
+										<option value="Felicitaciones">Felicitaciones</option>
+										<option value="Observación">Observación</option>
+										<option value="Reclamo">Reclamo</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<textarea class="form-control input-lg in titulosp2" rows="3" id="mensaje" name="mensaje" required=""></textarea><label for="mensaje" class="titulosp2"><font color ="#FFFFFF">Mensaje:</font></label>
+								</div>
+								<!-- <input name="Submit2" type="reset" class="" value="     Borrar    " />  -->
+								<input name="envia_contacto" type="submit" style="width: 100%;background-color: #FFCC05" class="btn  input-lg in btn-primary titulosp2" value="Enviar Mensaje">
+							</div>
+						</div>
+					</div>
+				</fieldset>
+			</div>
+			<br>
+		</div>
+	</div>
+	<br>
+
+	<div id="entidades_externas">
+		<div class="row">
+
+			<div class="col-md-3">
+				<img src="img/logo-gobierno.png">
+			</div>
+
+			<div class="col-md-2">
+				<ul>
+					<a href="http://www.vicepresidencia.gov.co" target="_blank"><font color="#FFFFFF">Vicepresidencia</font></a>
+					<a href="http://www.minjusticia.gov.co" target="_blank"><font color="#FFFFFF">MinJusticia</font></a>
+					<a href="http://www.mintransporte.gov.co" target="_blank"><font color="#FFFFFF">MinTransporte</font></a>
+					<a href="http://www.mindefensa.gov.co" target="_blank"><font color="#FFFFFF">MinDefensa</font></a>
+					<a href="http://www.mineducacion.gov.co" target="_blank"><font color="#FFFFFF">MinEducación</font></a>
+				</ul>
+			</div>
+
+			<div class="col-md-1">
+				<ul>
+					<a href="http://www.mininterior.gov.co/" target="_blank"><font color="#FFFFFF">MinInterior</font></a>
+					<a href="http://www.minminas.gov.co" target="_blank"><font color="#FFFFFF">MinMinas </font></a>
+					<a href="http://www.mincultura.gov.co/" target="_blank"><font color="#FFFFFF">MinCultura</font></a>
+					<a href="http://www.minhacienda.gov.co" target="_blank"><font color="#FFFFFF">MinHacienda</font></a>
+				</ul>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-1">
+				<ul>
+					<a href="http://www.mintrabajo.gov.co/" target="_blank"><font color="#FFFFFF">MinTrabajo</font></a>
+					<a href="http://www.cancilleria.gov.co/" target="_blank"><font color="#FFFFFF">MinRelaciones</font></a>
+					<a href="http://www.mincomercio.gov.co" target="_blank"><font color="#FFFFFF">MinComercio</font></a>
+					<a href="http://www.mintic.gov.co/" target="_blank"><font color="#FFFFFF">MinTIC</font></a>
+				</ul>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-1">
+				<ul>
+					<a href="http://www.minagricultura.gov.co" target="_blank"><font color="#FFFFFF">MinAgricultura</font></a>
+					<a href="http://www.minvivienda.gov.co" target="_blank"><font color="#FFFFFF">MinVivienda</font></a>
+					<a href="http://www.minsalud.gov.co" target="_blank"><font color="#FFFFFF">MinSalud</font></a>
+					<a href="http://www.minambiente.gov.co" target="_blank"><font color="#FFFFFF">MinAmbiente</font></a>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-left">
+				<span class="titulos">
+					<strong>Cuerpo de Bomberos Voluntario de Soledad Atlántico</strong>
+				</span>
+				<br>
+				<span>Calle 63 No. 1-300 Gran Central De Abastos Del Caribe "GRANABASTOS" Soledad-Atlántico</span>
+				<br>
+				<br>
+				<span class="titulos">
+					<strong>Horarios de Atención:</strong>
+				 </span>
+				<br>
+				<span>Lunes a Viernes 08:00 a.m. a 05:00 p.m</span>
+				<br>
+				<br>
+				<span class="titulos">
+					<strong>Línea telefónica</strong>
+				</span>
+				<br>
+				Administrativo: <a href="tel:+573002797621" class="enlaces">+57 300-2797621</a><br>
+				<br>
+				<br>
+				<span class="titulos">
+					<strong>Correos</strong>
+				</span>
+				<br>
+				<span>Notificaciones judiciales: </span> <a href="mailto:notificaciones_judiciales@bomberosdesoledad.com" class="enlaces">notificaciones_judiciales@bomberosdesoledad.com</a>
+				<br>
+				<span>Atencion al usuario: </span> <a href="mailto:atencionciudadana@bomberosdesoledad.com" class="enlaces">atencionciudadana@bomberosdesoledad.com</a>
+				<br>
+				<span>Institucional: <a href="mailto:bomberossoledad@yahoo.com" class="enlaces">bomberossoledad@yahoo.es</a></span>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<a href="normativa/politicas.pdf" target="_blank" class="enlaces">Politicas de Privacidad</a> -
+				<a href="normativa/terminos_condiciones.pdf" target="_blank" class="enlaces">Terminos y Condiciones</a>
+			</div>
+		</div>
+	</div>
+</footer>
+</html>
