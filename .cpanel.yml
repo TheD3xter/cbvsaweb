@@ -1,0 +1,4 @@
+#deployment:
+#    task:
+#        - export DEPLOYPATH=/home/bomsoled/public_html/
+#        -
